@@ -72,7 +72,7 @@ def is_user_in_channel(user_id):
 
 
 def call_api(region, uid):
-    url = f"https://ff-like-api-ruby.vercel.app/"
+    url = f"free-fire-like-api-sand.vercel.app"
     try:
         response = requests.get(url, timeout=20)
         if response.status_code != 200:
