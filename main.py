@@ -29,7 +29,7 @@ if not BOT_TOKEN:
     sys.exit(1)
 
 REQUIRED_CHANNELS = ["https://t.me/arxfflike"]
-GROUP_JOIN_LINK = "https://t.me/Arxfflike23"
+GROUP_JOIN_LINK = "@Arxfflike23"
 OWNER_ID = 7096312570
 OWNER_USERNAME = "@@Anamul_XYZ"
 
