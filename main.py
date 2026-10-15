@@ -11,7 +11,7 @@ import sys
 # ╔══════════════════════════════════════════════════════════════════╗
 # ║  CREATOR: ANAMUL TALUKDER 
 # ║  TELEGRAN: https://t.me/BD_NatureLover
-# ║  PERSONAL TELEGRAM: https://t.me/arxfflike
+# ║  PERSONAL TELEGRAM: https://t.me/arxxteambd
 # ╚══════════════════════════════════════════════════════════════════╝
 
 # Configure logging
@@ -28,8 +28,8 @@ if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
     sys.exit(1)
 
-REQUIRED_CHANNELS = ["@arxfflike"]
-GROUP_JOIN_LINK = "@Arxfflike23"
+REQUIRED_CHANNELS = ["@arxxteambd"]
+GROUP_JOIN_LINK = "@arxteambd"
 OWNER_ID = 7096312570
 OWNER_USERNAME = "@@Anamul_XYZ"
 
@@ -72,7 +72,7 @@ def is_user_in_channel(user_id):
 
 
 def call_api(region, uid):
-    url = f"https://free-fire-like-api-utk5.vercel.app/like?uid=123456789&region=bd"
+    url = f"https://free-fire-like-api-xxcs.vercel.app/like?uid={uid}&server_name={region}"
     try:
         response = requests.get(url, timeout=20)
         if response.status_code != 200:
